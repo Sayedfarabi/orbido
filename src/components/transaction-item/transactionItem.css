@@ -1,0 +1,17 @@
+.triangle-true {
+    width: 18px;
+    border-bottom: 18px solid red;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-radius: 5px;
+    transform: rotate(180deg);
+}
+
+.triangle-false {
+    width: 18px;
+    border-bottom: 18px solid #1AE5BE;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-radius: 5px;
+    /* transform: rotate(180deg); */
+}

@@ -71,7 +71,7 @@ const Footer = () => {
                     </footer>
                 </div>
             </div>
-            <div className='mx-[81px]'>
+            <div className='px-[81px]'>
                 <hr />
             </div>
             <div className='pt-[28px]'>
