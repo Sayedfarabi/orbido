@@ -10,7 +10,7 @@ const Business = () => {
     const shieldContent = "We take proactive steps make sure your information and transactions are secure.";
     const sendContent = "A balance transfer credit card can save you a lot of money in interest charges.";
     return (
-        <section className='mb-[228px]'>
+        <section className='mb-[228px] business-container'>
             <div className='grid grid-cols-1 md:grid-cols-2 mx-16'>
                 <div className=' mx-4'>
                     <div className='my-12'>

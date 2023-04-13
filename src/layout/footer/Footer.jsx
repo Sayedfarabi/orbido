@@ -2,10 +2,15 @@ import React from 'react';
 import logo from '../../assets/images/logo/logo (2).png';
 import './footer.css';
 import { Link } from 'react-router-dom';
+import { BsFacebook } from 'react-icons/bs';
+import { FaInstagram } from 'react-icons/fa';
+import { GrTwitter } from 'react-icons/gr';
+import { AiFillLinkedin } from 'react-icons/ai';
+
 
 const Footer = () => {
     return (
-        <section className='pb-[161px]'>
+        <section className='pb-[161px] container'>
             <div className='pb-[154px]'>
                 <div className='our-service'>
                     <div className='h-full flex flex-col justify-center items-center'>
@@ -81,7 +86,24 @@ const Footer = () => {
                             <div>
                                 <p className='text-[#FFFFFF]'>Copyright © 2023 Orbido. All Rights Reserved.</p>
                             </div>
+                            <div>
 
+                                <div className='flex justify-center items-center'>
+                                    <div className='text-white text-4xl mx-8'>
+                                        <FaInstagram></FaInstagram>
+                                    </div>
+                                    <div className='text-white text-4xl mx-8'>
+                                        <BsFacebook></BsFacebook>
+                                    </div>
+                                    <div className='text-white text-4xl mx-8'>
+                                        <GrTwitter></GrTwitter>
+                                    </div>
+                                    <div className='text-white text-4xl mx-8'>
+                                        <AiFillLinkedin></AiFillLinkedin>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
                     </footer>
                 </div>

@@ -3,7 +3,7 @@ import "./banner.css";
 
 const Banner = () => {
     return (
-        <section>
+        <section className='banner-container'>
             <div className='banner'>
                 <div className='content'>
                     <h1>make your dream website</h1>

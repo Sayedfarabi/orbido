@@ -101,3 +101,9 @@ hr {
     /* identical to box height, or 24px */
     color: rgba(255, 255, 255, 0.7);
 }
+
+.container {
+    background-image: url("../../assets/images/background/forth-background.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+}

@@ -14,7 +14,7 @@ const Transaction = () => {
         toast.success("Great! Your Payment is succesfully.")
     }
     return (
-        <section>
+        <section className='container'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4 mx-16'>
                 <div>
                     <div className='transaction-container'>
