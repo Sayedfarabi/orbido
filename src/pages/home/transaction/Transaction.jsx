@@ -9,8 +9,11 @@ import "./transaction.css";
 import TransactionItem from '../../../components/transaction-item/TransactionItem';
 
 const Transaction = () => {
+    const paymentHandle = () => {
+
+    }
     return (
-        <section className='my-32'>
+        <section>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4 mx-16'>
                 <div>
                     <div className='transaction-container'>
@@ -60,7 +63,7 @@ const Transaction = () => {
                                 </div>
                             </div>
                             <div className='mx-4 mt-4'>
-                                <button className='btn'>Make Payment</button>
+                                <button onClick={paymentHandle} className='btn'>Make Payment</button>
                             </div>
                         </div>
                     </div>
