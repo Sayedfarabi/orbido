@@ -1,0 +1,103 @@
+.our-service {
+    width: 1170px;
+    height: 293px;
+    background: linear-gradient(-144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+    backdrop-filter: blur(5px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 20px;
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.our-service h3 {
+    width: 670px;
+    height: 67px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.our-service p {
+    width: 445px;
+    height: 58px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.our-service button {
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+    text-transform: capitalize;
+    color: #00040E;
+    width: 170px;
+    height: 64px;
+    background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+    border-radius: 10px;
+}
+
+.footer,
+.copyright {
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+hr {
+    width: 1261px;
+    height: 0px;
+    margin-top: 38px;
+    border: 1px solid #3F3E45;
+}
+
+
+
+*/ .footer .logo {
+    width: 94px;
+    height: 69px;
+}
+
+.footer p {
+    width: 312px;
+    height: 64px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+
+.footer .footer-title {
+    width: 110px;
+    height: 27px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer li {
+    width: 102px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    color: rgba(255, 255, 255, 0.7);
+}
