@@ -7,10 +7,11 @@ import apple from "../../../assets/images/transactionItem/appleStore.png";
 import google from "../../../assets/images/transactionItem/googlePlay.png";
 import "./transaction.css";
 import TransactionItem from '../../../components/transaction-item/TransactionItem';
+import { toast } from 'react-hot-toast';
 
 const Transaction = () => {
     const paymentHandle = () => {
-
+        toast.success("Great! Your Payment is succesfully.")
     }
     return (
         <section>
