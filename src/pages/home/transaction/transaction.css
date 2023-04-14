@@ -5,11 +5,8 @@
 }
 
 .transaction {
-    /* position: absolute; */
     width: 346.45px;
     height: 269.25px;
-    /* left: 400px;
-    top: 180.59px; */
     background: linear-gradient(113.08deg, #FFFFFF -242.51%, #1C101D 85.56%);
     backdrop-filter: blur(15.2011px);
     border-radius: 9.12064px;
@@ -21,7 +18,6 @@
     height: 207.7px;
     left: 280px;
     top: -160px;
-
     background: linear-gradient(110.53deg, #FFFFFF -265.46%, #14101D 96.75%);
     box-shadow: 4px 6px 30px rgba(19, 36, 46, 0.25);
     border-radius: 10px;
